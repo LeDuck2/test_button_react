@@ -1,27 +1,14 @@
 import './App.css';
-import Display from './components/Display';
 
 function App() {
     return (
-        <div>
-            <Display></Display>
-        </div>
-        // <div className="App">
-        //   <header className="App-header">
-        //     <img src={logo} className="App-logo" alt="logo" />
-        //     <p>
-        //       Edit <code>src/App.js</code> and save to reload.
-        //     </p>
-        //     <a
-        //       className="App-link"
-        //       href="https://reactjs.org"
-        //       target="_blank"
-        //       rel="noopener noreferrer"
-        //     >
-        //       Learn React
-        //     </a>
-        //   </header>
-        // </div>
+        <>
+            {/* <Display></Display>
+            <Infor></Infor>
+            <NewComp></NewComp> */}
+            <div> hello world </div>
+            <button class="btn btn-primary">click here</button>
+        </>
     );
 }
 
